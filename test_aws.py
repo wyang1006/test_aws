@@ -1,7 +1,7 @@
 import streamlit as st
 
 
-import pandas as pd
+
 
 # Database connection function
 conn = st.connection("postgresql", type="sql")
@@ -20,4 +20,3 @@ df = conn.query(query, ttl="10m")
 
 st.write("First 10 rows:")
 st.dataframe(df.head(10))
-
