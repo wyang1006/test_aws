@@ -6,8 +6,8 @@ import pandas as pd
 # Database connection function
 conn = st.connection("postgresql", type="sql")
 
-# Perform query.
-df = conn.query('SELECT * FROM mytable;', ttl="10m")
+
+
 
 # Streamlit UI
 st.title("PostgreSQL Data with Dask")
