@@ -11,6 +11,7 @@ dask==2025.2.0
 fsspec==2025.2.0
 gitdb==4.0.12
 GitPython==3.1.44
+greenlet==3.1.1
 idna==3.10
 Jinja2==3.1.5
 jsonschema==4.23.0
@@ -26,6 +27,7 @@ pandas==2.2.3
 partd==1.4.2
 pillow==11.1.0
 protobuf==5.29.3
+psycopg2==2.9.10
 psycopg2-binary==2.9.10
 pyarrow==19.0.1
 pydeck==0.9.1
@@ -39,8 +41,8 @@ rich==13.9.4
 rpds-py==0.23.0
 six==1.17.0
 smmap==5.0.2
+SQLAlchemy==2.0.38
 streamlit==1.42.1
-sqlalchemy==2.0.38
 tenacity==9.0.0
 toml==0.10.2
 toolz==1.0.0
