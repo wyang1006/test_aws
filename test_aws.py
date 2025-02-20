@@ -4,7 +4,7 @@ import streamlit as st
 
 
 # Database connection function
-conn = st.connection("postgresql", type="sql")
+conn = st.connection("postgresql", type="sql",autocommit =True)
 
 
 
